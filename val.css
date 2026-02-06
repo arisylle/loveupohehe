@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #26d838d1;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+    margin: 20px;
+}
+.container .manja{
+    max-width: 200px;
+}
+.container .btn{
+    display: flex;
+    gap: 20px;
+}
+.container .btn a{
+    padding: 10px 20px;
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    box-shadow: 0.5rem 1rem 3rem rgba(0%,0%,0%,0.2);
+    z-index: 9999;
+    position: relative;
+}
+
